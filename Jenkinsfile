@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo '🧪 Testing the application...'
-                powershell 'python app.py'
+                bat 'python app.py'
             }
         }
         stage('Deploy') {
