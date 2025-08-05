@@ -75,3 +75,5 @@ Output
 ✅ All three stages (Build, Test, Deploy) ran without errors.
 
 
+<img width="766" height="738" alt="Screenshot 2025-08-05 130759" src="https://github.com/user-attachments/assets/6d4d802d-5fc6-4b36-9db3-116cf0ac682b" />
+
