@@ -10,7 +10,12 @@ pipeline {
         stage('Test') {
             steps {
                 echo '🧪 Testing the application...'
-                bat 'python app.py'
+                script {
+                    def proc = "python app.py".execute()
+                    proc.waitFor()
+                    def output = proc.in.text
+                    echo output
+                }
             }
         }
         stage('Deploy') {
